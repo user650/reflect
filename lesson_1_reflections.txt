@@ -1,0 +1,23 @@
+Q: How did viewing a DIFF between two versions help you spot the bug?
+- I was able to quickly see what changed between the old and new versions of the game file.
+- There was a small spelling error in there that I would not have noticed if just looking at the files directly.
+- It was also fun..
+- I use the GUT Bash to run the DIFF command and at the windows command prompts I used the ever popular FC command.  They both do the same thing but have a little different format of the 
+output.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+- When you manually chose the commit locations you can chose to commit right after each logical change :).  Using the manual method instead of a timed save approach also means that you forget to commit what you should :(
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Good question there my friend.  But the answer should rather apparent.  Saving multiple files at once allows you to create commit points across multiple related files. For exampele a HTML and CSS file that try together. 
+
+Q: How can you use the commands git log and git diff to view the history of files?
+- First you use the git log to see the changes along with the commit ids.
+- then you use "git diff" with the commit ids to see what has changed.
+
+ Q: How might using version control make you more confident to make changes that could break something?
+ - If there was a change that messed something up you can "git checkout" an old commit and try the program at that point.
+ - I was about to "git checkout" several times in the Asteroids game one by one until I found one that caused the bullet delay to go away.
+
+ Q:Now that you have your workspace set up, what do you want to try using Git for?
+ - Do some project work.. Bring it on...  BTW seems like a stupid question. let's get some work done.. 
