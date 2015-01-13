@@ -1,2 +1,3 @@
 Q:What happens when you initialize a repository? Why do you need to do it?
 - it creates a new directory called .git and does something to initialize the setttings that will be used as a baseline for the first commit.
+Here is some more fun text...
