@@ -1,3 +1,13 @@
 Q:What happens when you initialize a repository? Why do you need to do it?
 - it creates a new directory called .git and does something to initialize the setttings that will be used as a baseline for the first commit.
 Here is some more fun text...
+q:How can you use the staging area to make sure you have one commit per logical change?
+- Well.  You can see all of the files that have been modified by looking at the status before each of the commits.  Then it plops all of changes into each of the commits that are issued.
+q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- Branches can be used to try out differnt things with your code and have a point at which yuo can revery back to in an ealier branch.  For example with the asteroid game you can create an easy mode.
+Q: How do the diagrams help you visualize the branch structure?
+- i used excel to draw the three branches in the exercise.  I was able to see where each branch splt from the main and what commit points are reachable from which branch.  it is all good.
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- the git merge branch1 and branch2 merch the changes from the two branches together into one lovely branch.  The new branch "git log" will contain all of the commits that were present each of the two branches.
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Autmatic merges can pick out where the code changed do not over lap.  The manual is needed in those cases where there are changes to the exact same code location. 
